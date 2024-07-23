@@ -29,7 +29,7 @@ interface CandyMachineState {
   isSoldOut: boolean;
   isActive: boolean;
   isPresale: boolean;
-  goLiveDate: anchor.BN;
+  goLiveDate: "20 May 2024 00:00:00 GMT";
   price: anchor.BN;
   gatekeeper: null | {
     expireOnUse: boolean;
